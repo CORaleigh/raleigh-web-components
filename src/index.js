@@ -3,7 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { setAssetPath } from "@esri/calcite-components/dist/components";
+import "@esri/calcite-components/dist/calcite/calcite.css";
+import { applyPolyfills, defineCustomElements } from 'raleigh-stencil-components/loader';
 
+// Local assets
+setAssetPath(window.location.href);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -14,4 +19,8 @@ root.render(
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+
+applyPolyfills().then(() => {
+  defineCustomElements(window);
+});
 reportWebVitals();
