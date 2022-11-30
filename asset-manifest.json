@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/raleigh-web-components/static/css/main.a2b463a2.css",
-    "main.js": "/raleigh-web-components/static/js/main.0076365d.js",
+    "main.js": "/raleigh-web-components/static/js/main.226cb395.js",
     "static/js/738.fe7925d6.chunk.js": "/raleigh-web-components/static/js/738.fe7925d6.chunk.js",
     "polyfills-dom.js": "/raleigh-web-components/static/js/polyfills-dom.0f4bd384.chunk.js",
     "polyfills-core-js.js": "/raleigh-web-components/static/js/polyfills-core-js.c45adbe2.chunk.js",
@@ -436,7 +436,7 @@
     "static/js/3439.80dd86ce.chunk.js": "/raleigh-web-components/static/js/3439.80dd86ce.chunk.js",
     "index.html": "/raleigh-web-components/index.html",
     "main.a2b463a2.css.map": "/raleigh-web-components/static/css/main.a2b463a2.css.map",
-    "main.0076365d.js.map": "/raleigh-web-components/static/js/main.0076365d.js.map",
+    "main.226cb395.js.map": "/raleigh-web-components/static/js/main.226cb395.js.map",
     "738.fe7925d6.chunk.js.map": "/raleigh-web-components/static/js/738.fe7925d6.chunk.js.map",
     "polyfills-dom.0f4bd384.chunk.js.map": "/raleigh-web-components/static/js/polyfills-dom.0f4bd384.chunk.js.map",
     "polyfills-core-js.c45adbe2.chunk.js.map": "/raleigh-web-components/static/js/polyfills-core-js.c45adbe2.chunk.js.map",
@@ -820,6 +820,6 @@
   },
   "entrypoints": [
     "static/css/main.a2b463a2.css",
-    "static/js/main.0076365d.js"
+    "static/js/main.226cb395.js"
   ]
 }
